@@ -22,7 +22,7 @@ int multiplication (int matrix[5][10], int matrix2[5][5])
         for (int c = 0; c < 10; c += 2)
         {
             int m = 0;
-            m = matrix[l][c]*matrix[l][c+1];
+            m = (matrix[l][c]+matrix[l][c+1]);
             matrix2[l][n] = m;
             n++;
         }
